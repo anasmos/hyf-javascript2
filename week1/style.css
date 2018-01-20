@@ -2,13 +2,16 @@
     text-align: center
 }
 ul{
+    display: flex;
+    flex-wrap: wrap;
    list-style-type:none;
 }
 li{
     border: 1px solid black;
     border-radius: 25px;
-    margin-bottom: 20px;
-    box-shadow: 10px 10px 10px rgb(9, 209, 53)
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgb(9, 209, 53);
+    width: 46%;
 }
 #header{
     font-size: 30px
